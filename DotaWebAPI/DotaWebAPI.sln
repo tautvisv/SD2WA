@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2CalculationService", "Dota2CalculationService\Dota2CalculationService.csproj", "{29407EE7-BD65-4829-BAC5-5F6D32199F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2CalculationService.Tests", "Dota2CalculationService.Tests\Dota2CalculationService.Tests.csproj", "{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2WebAPI", "Dota2WebAPI\Dota2WebAPI.csproj", "{46FE012A-9F5D-400F-BAAF-8890A7958E9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29407EE7-BD65-4829-BAC5-5F6D32199F44} = {29407EE7-BD65-4829-BAC5-5F6D32199F44}
+		{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C} = {1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2WebAPI.Tests", "Dota2WebAPI.Tests\Dota2WebAPI.Tests.csproj", "{2B46E755-C077-44CB-8B65-825A248293C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCalculationServiceConnectionLib", "CustomCalculationServiceConnectionLib\CustomCalculationServiceConnectionLib.csproj", "{38C86FF8-6434-461A-B9BE-F4108C55669D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{526C0C72-B5BE-4FBE-82F8-9974C989440D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29407EE7-BD65-4829-BAC5-5F6D32199F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29407EE7-BD65-4829-BAC5-5F6D32199F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29407EE7-BD65-4829-BAC5-5F6D32199F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29407EE7-BD65-4829-BAC5-5F6D32199F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFC91F2-1E2F-4934-A0E9-08D810A2C98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FE012A-9F5D-400F-BAAF-8890A7958E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FE012A-9F5D-400F-BAAF-8890A7958E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FE012A-9F5D-400F-BAAF-8890A7958E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FE012A-9F5D-400F-BAAF-8890A7958E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B46E755-C077-44CB-8B65-825A248293C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B46E755-C077-44CB-8B65-825A248293C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B46E755-C077-44CB-8B65-825A248293C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B46E755-C077-44CB-8B65-825A248293C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C86FF8-6434-461A-B9BE-F4108C55669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C86FF8-6434-461A-B9BE-F4108C55669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C86FF8-6434-461A-B9BE-F4108C55669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C86FF8-6434-461A-B9BE-F4108C55669D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526C0C72-B5BE-4FBE-82F8-9974C989440D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526C0C72-B5BE-4FBE-82F8-9974C989440D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526C0C72-B5BE-4FBE-82F8-9974C989440D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526C0C72-B5BE-4FBE-82F8-9974C989440D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
