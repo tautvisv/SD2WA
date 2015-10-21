@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using DataRepo;
 using RestSharp;
 using RestSharp.Extensions;
 
@@ -11,6 +13,11 @@ namespace Dota2CalculationService.Controllers
 {
     public class CalculationController : ApiController
     {
+        private readonly DbContext DB;
+        public CalculationController()
+        {
+            //DB = new Dota2DbContext();
+        }
         // GET api/calculation
         public IEnumerable<string> Get()
         {

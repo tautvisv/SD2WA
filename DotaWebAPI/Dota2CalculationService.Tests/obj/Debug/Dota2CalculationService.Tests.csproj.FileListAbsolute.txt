@@ -2,11 +2,13 @@ E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Dota2Ca
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Dota2CalculationService.Tests.pdb
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Dota2CalculationService.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Web.Http.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\EntityFramework.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Web.Http.WebHost.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Net.Http.Formatting.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Newtonsoft.Json.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Dota2CalculationService.pdb
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Web.Http.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\EntityFramework.xml
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Web.Http.WebHost.xml
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\System.Net.Http.Formatting.xml
 E:\Darbai\c#\Saitynai\DotaWebAPI\Dota2CalculationService.Tests\bin\Debug\Newtonsoft.Json.xml

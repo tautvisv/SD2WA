@@ -1,0 +1,9 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\DataRepo.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\DataRepo.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\DatabaseEntities.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\DatabaseEntities.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\obj\Debug\DataRepo.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\obj\Debug\DataRepo.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataRepo\obj\Debug\DataRepo.pdb

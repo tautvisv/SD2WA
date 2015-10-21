@@ -1,0 +1,4 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataInterfaces\bin\Debug\DataInterfaces.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataInterfaces\bin\Debug\DataInterfaces.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataInterfaces\obj\Debug\DataInterfaces.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DataInterfaces\obj\Debug\DataInterfaces.pdb

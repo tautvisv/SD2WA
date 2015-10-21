@@ -6,7 +6,5 @@ E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\bin\Debug
 E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\bin\Debug\ServiceStack.Text.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\bin\Debug\ServiceStack.Client.xml
 E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\bin\Debug\ServiceStack.Text.xml
-E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\obj\Debug\CustomCalculationServiceConnectionLib.csprojResolveAssemblyReference.cache
 E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\obj\Debug\CustomCalculationServiceConnectionLib.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\obj\Debug\CustomCalculationServiceConnectionLib.pdb
-E:\Darbai\c#\Saitynai\DotaWebAPI\CustomCalculationServiceConnectionLib\bin\Debug\Newtonsoft.Json.xml

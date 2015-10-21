@@ -32,6 +32,11 @@ namespace Dota2WebAPI
                 routeTemplate: "api/{controller}/{action}",
                 defaults: new { httpMethod = new HttpMethodConstraint(HttpMethod.Post) }
                 );
+            config.Routes.MapHttpRoute(
+                name: "DefaultApiGet",
+                routeTemplate: "api/{controller}/{action}",
+                defaults: new { httpMethod = new HttpMethodConstraint(HttpMethod.Get) }
+                );
 
             //config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
         }
