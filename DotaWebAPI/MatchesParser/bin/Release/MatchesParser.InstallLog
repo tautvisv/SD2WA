@@ -1,0 +1,26 @@
+﻿Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Release\MatchesParser.exe
+Restoring event log to previous state for source Service1.

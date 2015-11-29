@@ -1,0 +1,45 @@
+﻿.match-table {
+    color: #eef;
+    background: #282b28;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+    .match-table table {
+        padding: 100px;
+    }
+
+    .match-table th.left {
+        text-align: left;
+    }
+
+    .match-table th.center {
+        text-align: center;
+    }
+
+    .match-table td, .match-table th {
+        padding: 4px;
+    }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    overflow: hidden;
+}
+
+.match-table tbody tr:nth-child(2n) {
+    background-color: #253125;
+}
+
+.match-table tbody tr:nth-child(2n+1) {
+    background-color: #272d27;
+}
+.match-table-title {
+    color: #218e4c;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+}

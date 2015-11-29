@@ -1,0 +1,13 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\Logger.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\Logger.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\NLog.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\System.Net.Http.Formatting.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\System.Web.Http.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\NLog.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\System.Net.Http.Formatting.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\bin\Debug\System.Web.Http.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\obj\Debug\Logger.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Logger\obj\Debug\Logger.pdb

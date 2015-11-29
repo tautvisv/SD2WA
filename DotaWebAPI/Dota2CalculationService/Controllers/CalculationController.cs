@@ -1,44 +1,76 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
-using DataRepo;
-using RestSharp;
-using RestSharp.Extensions;
+using CalculationServicesInterfaces;
+using Data;
+using DatabaseEntities.Entities;
+using Validation;
 
 namespace Dota2CalculationService.Controllers
 {
-    public class CalculationController : ApiController
+    [RoutePrefix(Globals.ApiPrefix + "/Calculation")]
+    public class CalculationController : BaseController.BaseController
     {
-        private readonly DbContext DB;
-        public CalculationController()
+        private readonly IStatisticsCalculationService _service;
+        private readonly IKeyValidation _keyValidation;
+        public CalculationController(IStatisticsCalculationService service, IKeyValidation validation)
         {
+            _service = service;
+            _keyValidation = validation;
             //DB = new Dota2DbContext();
         }
-        // GET api/calculation
-        public IEnumerable<string> Get()
+        [Route("key/{key}/Statistics/")]
+        public IHttpActionResult PostCalculateStatistics(string key, [FromBody]Match match)
         {
-            return new string[] { "value1", "value2" };
+            if (!_keyValidation.IsValid(key))
+            {
+                return null;
+            }
+            var result = _service.CalculateStatistics(match);
+            return CreateResponse(result);
+        }
+        [Route("key/{key}/Winrate/")]
+        public IHttpActionResult PostCalculateWinrate(string key, [FromBody]ICollection<Match> matches)
+        {
+            if (!_keyValidation.IsValid(key))
+            {
+                return CreateResponse(null);
+            }
+            var result = _service.CalculateWinrate(matches);
+            return CreateResponse(result);
         }
 
-        // GET api/calculation/5
-        public string Get(int id)
+        [Route("key/{key}/Rating/PlayerID/{id}")]
+        public IHttpActionResult PostCalculateRating(string key, int id, [FromBody]ICollection<Match> matches)
         {
-            return "value: "+id;
+            if (!_keyValidation.IsValid(key))
+            {
+                return null;
+            }
+            var result = _service.CalculateRating(matches, id);
+            return CreateResponse(result);
         }
 
-        // POST api/calculation
-        public void Post([FromBody]string value)
+        [Route("key/{key}/Best/")]
+        public IHttpActionResult PostCalculateBestAgainst(string key, [FromBody]ICollection<Match> matches)
         {
+            if (!_keyValidation.IsValid(key))
+            {
+                return CreateResponse(null);
+            }
+            var result = _service.CalculateBestAgainst(matches);
+            return CreateResponse(result);
         }
-
-        // PUT api/calculation/5
-        public void Put(int id, [FromBody]string value)
+        [Route("key/{key}/Worst/")]
+        public IHttpActionResult PostCalculateWorstAgainst(string key, [FromBody]ICollection<Match> matches)
         {
+            if (!_keyValidation.IsValid(key))
+            {
+                return CreateResponse(null);
+            }
+            var result = _service.CalculateWorstAgainst(matches);
+            return CreateResponse(result);
         }
+        
         public object MyMethod(int id, [FromBody]object value)
         {
             /*

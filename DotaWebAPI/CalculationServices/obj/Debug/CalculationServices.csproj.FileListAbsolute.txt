@@ -1,0 +1,15 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\CalculationServices.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\CalculationServices.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\CalculationServicesInterfaces.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\Data.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\DatabaseEntities.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\DataInterfaces.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\CalculationServicesInterfaces.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\DatabaseEntities.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\Data.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\bin\Debug\DataInterfaces.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\obj\Debug\CalculationServices.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\obj\Debug\CalculationServices.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\CalculationServices\obj\Debug\CalculationServices.pdb

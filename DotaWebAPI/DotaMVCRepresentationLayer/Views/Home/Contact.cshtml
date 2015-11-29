@@ -1,0 +1,21 @@
+﻿@model DotaMVCRepresentationLayer.Models.Interfaces.IContactViewModel
+@{
+    ViewBag.Title = Model.SiteTitle;
+}
+@Styles.Render("~/Content/css")
+<h2>@Model.Title</h2>
+<h3>@Model.Message</h3>
+
+<address>
+    @Model.ContactData.Name @Model.ContactData.Group<br /><br />
+    @Model.ContactData.Address<br />
+    <abbr title="Phone">Phone No.</abbr>
+    @Model.ContactData.PhoneNumber<br />
+    <strong>Main mail:</strong>   <a href="mailto:@Model.ContactData.MainMail">@Model.ContactData.MainMail</a><br />
+    <strong><abbr title="Supervisor">Supervisor:</abbr></strong>
+    @Model.Support
+</address>
+<address>
+    Support:  <a href="mailto:Support@example.com">@Model.ContactData.SupportMail</a><br />
+    Marketing: <a href="mailto:Marketing@example.com">@Model.ContactData.MarkettingMail</a>
+</address>

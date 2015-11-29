@@ -1,0 +1,516 @@
+﻿Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Attempt to stop service MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Warning: The source MatchParserService is not registered on the local machine.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Attempt to stop service MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Warning: The source MatchParserService is not registered on the local machine.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Attempt to stop service MatchParserService.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Creating EventLog source MatchParserService in log Application...
+Rolling back assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Restoring event log to previous state for source MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Attempt to stop service MatchParserService.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Warning: The source MatchParserService is not registered on the local machine.
+Service MatchParserService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Warning: The source MatchParserService is not registered on the local machine.
+Service MatchParserService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Uninstalling assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Removing EventLog source MatchParserService.
+Service MatchParserService is being removed from the system...
+Service MatchParserService was successfully removed from the system.
+Installing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe
+Installing service MatchParserService...
+Service MatchParserService has been successfully installed.
+Creating EventLog source MatchParserService in log Application...
+Committing assembly 'E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.InstallLog
+   assemblypath = E:\Darbai\c#\Saitynai\DotaWebAPI\MatcheParserService\bin\Release\MatcheParserService.exe

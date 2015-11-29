@@ -1,0 +1,5 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\Validation\bin\Debug\Validation.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Validation\bin\Debug\Validation.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\Validation\obj\Debug\Validation.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\Validation\obj\Debug\Validation.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\Validation\obj\Debug\Validation.pdb

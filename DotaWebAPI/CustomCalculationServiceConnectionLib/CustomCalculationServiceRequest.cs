@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+using Data;
 
 namespace CustomCalculationServiceConnectionLib
 {
     public class CustomCalculationServiceRequest
     {
-        private const string ServerAdress = "http://localhost:13816/api/";
+        private string _key;
+        private IDictionary<string,string> _urlParameters;
+        private const string ServerAdress = Globals.CalculationService + Globals.ApiPrefix + "/";
 
         public enum RequestTypeEnum
         {
@@ -18,17 +18,30 @@ namespace CustomCalculationServiceConnectionLib
         }
         public CustomCalculationServiceRequest()
         {
-            
+            _urlParameters = new Dictionary<string, string>();
         }
 
         public string ToRequestString()
         {
-            return ServerAdress + MethodController + "/" + (!string.IsNullOrEmpty(MethodName)? MethodName + "/" : "") + string.Join("/", URLParameters);
+            var parameters = _urlParameters.Aggregate("", (current, parameter) => current + string.Format("{0}/{1}/", parameter.Key, parameter.Value));
+            return ServerAdress + MethodController + "/" + Key + (!string.IsNullOrEmpty(MethodName) ? MethodName + "/": "") + parameters;
         }
+
+        public string Key
+        {
+            get { return _key; }
+            set { _key = Globals.CalculationServiceKey + value + "/"; }
+        }
+
         public string MethodName { get; set; }
         public string MethodController { get; set; }
         public RequestTypeEnum MethodType { get; set; }
-        public IEnumerable<string> URLParameters { get; set; }
+
+        public void AddParamater(string name, string value)
+        {
+            _urlParameters.Add(name, value);
+        }
+
         public object Body { get; set; }
     }
 }

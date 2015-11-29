@@ -1,7 +1,12 @@
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\DatabaseEntities.dll.config
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\DatabaseEntities.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\DatabaseEntities.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\EntityFramework.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\EntityFramework.SqlServer.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\EntityFramework.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\EntityFramework.SqlServer.xml
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\obj\Debug\DatabaseEntities.csprojResolveAssemblyReference.cache
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\obj\Debug\DatabaseEntities.dll
 E:\Darbai\c#\Saitynai\DotaWebAPI\DatabaseEntities\obj\Debug\DatabaseEntities.pdb

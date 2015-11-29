@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Data
+﻿namespace Data
 {
     public static class Globals
     {
@@ -15,5 +9,9 @@ namespace Data
         public const string APIKey = "xzpwxyN--WcWsjrcNx8o";
         public const string DotaAPIKey = "893F592E19918CA8A9CB5A847C94E2ED";
         public const string FullDotaKey = "?key=" + DotaAPIKey;
+        public const string ApiPrefix = "api";
+        public const string CalculationService = "http://localhost:13816/";
+        public const string CalculationServiceController = ApiPrefix + "/Calculation/";
+        public const string CalculationServiceKey = "key/";
     }
 }

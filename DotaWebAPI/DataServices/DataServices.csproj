@@ -30,7 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,17 +45,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseService.cs" />
-    <Compile Include="IHeroesService.cs" />
+    <Compile Include="IBridgeDotaCalculation.cs" />
+    <Compile Include="IMiscService.cs" />
+    <Compile Include="IRegister.cs" />
+    <Compile Include="IStatisticsService.cs" />
     <Compile Include="IEntityService.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\HeroesService.cs" />
+    <Compile Include="Services\DotaCalculationBridge.cs" />
+    <Compile Include="Services\MiscService.cs" />
+    <Compile Include="Services\StatisticsService.cs" />
+    <Compile Include="Services\TaskRegister.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\CustomCalculationServiceConnectionLib\CustomCalculationServiceConnectionLib.csproj">
+      <Project>{38C86FF8-6434-461A-B9BE-F4108C55669D}</Project>
+      <Name>CustomCalculationServiceConnectionLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DatabaseEntities\DatabaseEntities.csproj">
       <Project>{cbeaa51c-ca1f-40a2-82da-debbccbe619f}</Project>
       <Name>DatabaseEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataCache\DataCache.csproj">
+      <Project>{995F9A24-655C-4378-9743-35427C3AA148}</Project>
+      <Name>DataCache</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataInterfaces\DataInterfaces.csproj">
       <Project>{143fd4af-5c5c-4ce7-9072-169036d0ef47}</Project>
@@ -60,10 +78,18 @@
       <Project>{c8dd2184-26f3-42ed-8e07-5248a83ab2e4}</Project>
       <Name>DataRepositories</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataRepo\DataRepo.csproj">
+    <ProjectReference Include="..\DataRepo\DataRepositoriesInterfaces.csproj">
       <Project>{2664bf7c-27e9-44e7-aa0d-d2970af1abca}</Project>
-      <Name>DataRepo</Name>
+      <Name>DataRepositoriesInterfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{526C0C72-B5BE-4FBE-82F8-9974C989440D}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

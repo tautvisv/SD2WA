@@ -1,0 +1,9 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Debug\MatchesParser.exe.config
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.Service1.resources
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.csproj.GenerateResource.Cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Debug\MatchesParser.exe
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\bin\Debug\MatchesParser.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.exe
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.ProjectInstaller.resources
+E:\Darbai\c#\Saitynai\DotaWebAPI\MatchesParser\obj\Debug\MatchesParser.csprojResolveAssemblyReference.cache

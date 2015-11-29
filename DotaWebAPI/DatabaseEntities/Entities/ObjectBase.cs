@@ -8,6 +8,6 @@ namespace DatabaseEntities.Entities
     {
         [Key]
         [JsonProperty("id")]
-        public int ID { get; set; }
+        public virtual int ID { get; set; }
     }
 }

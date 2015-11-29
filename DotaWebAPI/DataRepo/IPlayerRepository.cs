@@ -1,7 +1,6 @@
 ﻿using DatabaseEntities.Entities;
-using DataRepo;
 
-namespace DataRepo
+namespace DataRepositoriesInterfaces
 {
     public interface IPlayerRepository : IGenericRepository<Player>
     {

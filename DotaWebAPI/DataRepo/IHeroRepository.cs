@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using DatabaseEntities.Entities;
+﻿using DatabaseEntities.Entities;
 
-namespace DataRepo
+namespace DataRepositoriesInterfaces
 {
     public interface IHeroRepository:IGenericRepository<Hero>
     {

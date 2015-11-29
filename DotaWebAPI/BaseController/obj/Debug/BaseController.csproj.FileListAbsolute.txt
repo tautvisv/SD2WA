@@ -1,0 +1,11 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\BaseController.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\BaseController.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\System.Net.Http.Formatting.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\System.Web.Http.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\System.Net.Http.Formatting.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\bin\Debug\System.Web.Http.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\obj\Debug\BaseController.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\obj\Debug\BaseController.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\BaseController\obj\Debug\BaseController.pdb

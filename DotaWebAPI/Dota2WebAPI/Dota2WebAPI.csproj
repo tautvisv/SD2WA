@@ -71,8 +71,13 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="QuandlCS">
-      <HintPath>..\CustomPackages\Quandl\QuandlCS.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.2.0\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.105.2.3\lib\net45\RestSharp.dll</HintPath>
@@ -91,6 +96,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -103,6 +112,10 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -138,15 +151,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.Formatting">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.Http.WebHost">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
@@ -158,17 +162,21 @@
   <ItemGroup>
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Commands\TestCommand.cs" />
     <Compile Include="Controllers\DotaController.cs" />
+    <Compile Include="Controllers\MiscController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ContainerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -178,30 +186,44 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\BaseController\BaseController.csproj">
+      <Project>{FA931E56-2433-41FB-87FA-64ED5E770F5A}</Project>
+      <Name>BaseController</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CustomCalculationServiceConnectionLib\CustomCalculationServiceConnectionLib.csproj">
       <Project>{38c86ff8-6434-461a-b9be-f4108c55669d}</Project>
       <Name>CustomCalculationServiceConnectionLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAPIRepositories\DataAPIRepositories.csproj">
+      <Project>{f6798205-ded4-4810-9e66-f78f62a213f4}</Project>
+      <Name>DataAPIRepositories</Name>
     </ProjectReference>
     <ProjectReference Include="..\DatabaseEntities\DatabaseEntities.csproj">
       <Project>{cbeaa51c-ca1f-40a2-82da-debbccbe619f}</Project>
       <Name>DatabaseEntities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataCache\DataCache.csproj">
+      <Project>{995F9A24-655C-4378-9743-35427C3AA148}</Project>
+      <Name>DataCache</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataInterfaces\DataInterfaces.csproj">
       <Project>{143FD4AF-5C5C-4CE7-9072-169036D0EF47}</Project>
       <Name>DataInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataMockServices\DataMockServices.csproj">
+      <Project>{CB0A3F1E-9D67-4981-A298-386C9917933C}</Project>
+      <Name>DataMockServices</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataRepositories\DataRepositories.csproj">
       <Project>{c8dd2184-26f3-42ed-8e07-5248a83ab2e4}</Project>
       <Name>DataRepositories</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataRepo\DataRepo.csproj">
+    <ProjectReference Include="..\DataRepo\DataRepositoriesInterfaces.csproj">
       <Project>{2664bf7c-27e9-44e7-aa0d-d2970af1abca}</Project>
-      <Name>DataRepo</Name>
+      <Name>DataRepositoriesInterfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataServices\DataServices.csproj">
       <Project>{8ecdba0a-2891-4655-8453-219ea3675b1f}</Project>
@@ -210,6 +232,10 @@
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{526c0c72-b5be-4fbe-82f8-9974c989440d}</Project>
       <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{E19ABBFA-6A9B-4BC2-93CC-D97247AFA193}</Project>
+      <Name>Logger</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

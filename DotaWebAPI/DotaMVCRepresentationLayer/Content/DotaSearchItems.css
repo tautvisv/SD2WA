@@ -1,0 +1,121 @@
+﻿.dota-info-list {
+    padding: 10px 10px 10px 5px;
+    list-style: none;
+}
+.dota-info-list li{
+    background-color: #2f2f2f; 
+    height: 95px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.dota-info-list li.add-item{
+    background-color: #218e4c;
+    height: 95px;
+    width: 95px;
+}
+.dota-info-list li.add-item:hover{
+    background-color: #1d7a42;
+    cursor: pointer;
+}
+.dota-info-list li.big {
+    height: 650px;
+}
+.dota-information {
+    display: block;
+}
+
+#cross {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+    #cross:before, #cross:after {
+        content: "";
+        position: absolute;
+        z-index: 11;
+        background: #eee;
+    }
+    #cross:before {
+        left: 43%;
+        top: 25%;
+        width: 14%;
+        height: 50%;
+    }
+
+    #cross:after {
+        left: 25%;
+        top: 43%;
+        height: 14%;
+        width: 50%;
+    }
+
+.element-container {
+    position: relative;
+    height: 100%;
+}
+
+.boxclose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: #eee;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #218e4c;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0;
+    padding: 12px 5px 13px 5px;
+}
+.boxclose:hover {
+    background-color: #218e4c;
+    color: #eee;
+    border: 1px solid #218e4c;
+}
+.boxclose:before {
+    content: "x";
+}
+.content-list-button {
+    background-color: #218e4c;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    color: #fff;
+    border-color: #1d7a42;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+    /*position: absolute;
+    right: 0;
+    bottom: 0;*/
+}
+.content-list-select {
+    background-color: #218e4c;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    color: #fff;
+    border-color: #1d7a42;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+    position: relative;
+}
+.content-list-input {
+    background-color: #eee;
+}
+.element-container span {
+    color: #eee;
+}
+.element-container span.big {
+    font-size: 20px;
+}
+.element-container span.bigger {
+    font-size: 30px;
+}
+.display-inline {
+    display: inline-block;
+}

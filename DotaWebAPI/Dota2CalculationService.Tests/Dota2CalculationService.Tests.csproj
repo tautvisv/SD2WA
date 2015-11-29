@@ -52,10 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dota2CalculationService\Dota2CalculationService.csproj">
+    <ProjectReference Include="..\Dota2CalculationService\Dota2CalculationServiceAPI.csproj">
       <Project>{29407EE7-BD65-4829-BAC5-5F6D32199F44}</Project>
-      <Name>Dota2CalculationService</Name>
+      <Name>Dota2CalculationServiceAPI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

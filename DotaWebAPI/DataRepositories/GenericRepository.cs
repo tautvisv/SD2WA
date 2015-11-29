@@ -3,6 +3,7 @@ using System.Data.Entity;
 using System.Linq;
 using DatabaseEntities.Interfaces;
 using DataRepositories;
+using DataRepositoriesInterfaces;
 
 namespace DataRepo
 {
@@ -42,7 +43,7 @@ namespace DataRepo
             return deletedEntity;
         }
 
-        public virtual IList<TEntity> List
+        public virtual IEnumerable<TEntity> List
         {
             get
             {

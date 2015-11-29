@@ -1,0 +1,5 @@
+DELETE FROM  [dbo].AbilityUpgrades;
+DELETE FROM  [dbo].InGamePlayers;
+DELETE FROM  [dbo].Players;
+DELETE FROM  [dbo].Matches;
+DELETE FROM  [dbo].Heroes;

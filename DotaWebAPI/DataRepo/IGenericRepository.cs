@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using DatabaseEntities.Interfaces;
 
-namespace DataRepo
+namespace DataRepositoriesInterfaces
 {
     public interface IGenericRepository<TEntity>
         where TEntity : class, IObject
@@ -13,6 +13,6 @@ namespace DataRepo
         TEntity Delete(TEntity entity);
 
         void Update(TEntity entity);
-        IList<TEntity> List { get; } 
+        IEnumerable<TEntity> List { get; } 
     }
 }

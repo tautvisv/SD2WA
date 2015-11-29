@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD1BBA8C-B08B-4ED9-92CF-CE868053DC33}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotaMVCRepresentationLayer</RootNamespace>
+    <AssemblyName>DotaMVCRepresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Attributes\AllowCrossSiteJsonAttribute.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Interfaces\IContactModel.cs" />
+    <Compile Include="Models\Interfaces\IContactViewModel.cs" />
+    <Compile Include="Models\Interfaces\IMainPageViewModel.cs" />
+    <Compile Include="Models\Interfaces\IModelView.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Mocks\ContactModel.cs" />
+    <Compile Include="Models\Mocks\ContactViewModelMock.cs" />
+    <Compile Include="Models\Mocks\MainPageViewModelMock%28%29.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CustomNavigation.css" />
+    <Content Include="Content\DotaSearchItems.css" />
+    <Content Include="Content\Icons\Heroes\abaddon_full.png" />
+    <Content Include="Content\Icons\Heroes\alchemist_full.png" />
+    <Content Include="Content\Icons\Heroes\ancient_apparition_full.png" />
+    <Content Include="Content\Icons\Heroes\antimage_full.png" />
+    <Content Include="Content\Icons\Heroes\axe_full.png" />
+    <Content Include="Content\Icons\Heroes\bane_full.png" />
+    <Content Include="Content\Icons\Heroes\batrider_full.png" />
+    <Content Include="Content\Icons\Heroes\beastmaster_full.png" />
+    <Content Include="Content\Icons\Heroes\bloodseeker_full.png" />
+    <Content Include="Content\Icons\Heroes\bounty_hunter_full.png" />
+    <Content Include="Content\Icons\Heroes\brewmaster_full.png" />
+    <Content Include="Content\Icons\Heroes\bristleback_full.png" />
+    <Content Include="Content\Icons\Heroes\broodmother_full.png" />
+    <Content Include="Content\Icons\Heroes\centaur_full.png" />
+    <Content Include="Content\Icons\Heroes\chaos_knight_full.png" />
+    <Content Include="Content\Icons\Heroes\chen_full.png" />
+    <Content Include="Content\Icons\Heroes\clinkz_full.png" />
+    <Content Include="Content\Icons\Heroes\crystal_maiden_full.png" />
+    <Content Include="Content\Icons\Heroes\dark_seer_full.png" />
+    <Content Include="Content\Icons\Heroes\dazzle_full.png" />
+    <Content Include="Content\Icons\Heroes\death_prophet_full.png" />
+    <Content Include="Content\Icons\Heroes\disruptor_full.png" />
+    <Content Include="Content\Icons\Heroes\doom_bringer_full.png" />
+    <Content Include="Content\Icons\Heroes\dragon_knight_full.png" />
+    <Content Include="Content\Icons\Heroes\drow_ranger_full.png" />
+    <Content Include="Content\Icons\Heroes\earthshaker_full.png" />
+    <Content Include="Content\Icons\Heroes\earth_spirit_full.png" />
+    <Content Include="Content\Icons\Heroes\elder_titan_full.png" />
+    <Content Include="Content\Icons\Heroes\ember_spirit_full.png" />
+    <Content Include="Content\Icons\Heroes\enchantress_full.png" />
+    <Content Include="Content\Icons\Heroes\enigma_full.png" />
+    <Content Include="Content\Icons\Heroes\faceless_void_full.png" />
+    <Content Include="Content\Icons\Heroes\furion_full.png" />
+    <Content Include="Content\Icons\Heroes\gyrocopter_full.png" />
+    <Content Include="Content\Icons\Heroes\huskar_full.png" />
+    <Content Include="Content\Icons\Heroes\invoker_full.png" />
+    <Content Include="Content\Icons\Heroes\jakiro_full.png" />
+    <Content Include="Content\Icons\Heroes\juggernaut_full.png" />
+    <Content Include="Content\Icons\Heroes\keeper_of_the_light_full.png" />
+    <Content Include="Content\Icons\Heroes\kunkka_full.png" />
+    <Content Include="Content\Icons\Heroes\legion_commander_full.png" />
+    <Content Include="Content\Icons\Heroes\leshrac_full.png" />
+    <Content Include="Content\Icons\Heroes\lich_full.png" />
+    <Content Include="Content\Icons\Heroes\life_stealer_full.png" />
+    <Content Include="Content\Icons\Heroes\lina_full.png" />
+    <Content Include="Content\Icons\Heroes\lion_full.png" />
+    <Content Include="Content\Icons\Heroes\lone_druid_full.png" />
+    <Content Include="Content\Icons\Heroes\luna_full.png" />
+    <Content Include="Content\Icons\Heroes\lycan_full.png" />
+    <Content Include="Content\Icons\Heroes\magnataur_full.png" />
+    <Content Include="Content\Icons\Heroes\medusa_full.png" />
+    <Content Include="Content\Icons\Heroes\meepo_full.png" />
+    <Content Include="Content\Icons\Heroes\mirana_full.png" />
+    <Content Include="Content\Icons\Heroes\morphling_full.png" />
+    <Content Include="Content\Icons\Heroes\naga_siren_full.png" />
+    <Content Include="Content\Icons\Heroes\necrolyte_full.png" />
+    <Content Include="Content\Icons\Heroes\nevermore_full.png" />
+    <Content Include="Content\Icons\Heroes\night_stalker_full.png" />
+    <Content Include="Content\Icons\Heroes\nyx_assassin_full.png" />
+    <Content Include="Content\Icons\Heroes\obsidian_destroyer_full.png" />
+    <Content Include="Content\Icons\Heroes\ogre_magi_full.png" />
+    <Content Include="Content\Icons\Heroes\omniknight_full.png" />
+    <Content Include="Content\Icons\Heroes\oracle_full.png" />
+    <Content Include="Content\Icons\Heroes\phantom_assassin_full.png" />
+    <Content Include="Content\Icons\Heroes\phantom_lancer_full.png" />
+    <Content Include="Content\Icons\Heroes\phoenix_full.png" />
+    <Content Include="Content\Icons\Heroes\puck_full.png" />
+    <Content Include="Content\Icons\Heroes\pudge_full.png" />
+    <Content Include="Content\Icons\Heroes\pugna_full.png" />
+    <Content Include="Content\Icons\Heroes\queenofpain_full.png" />
+    <Content Include="Content\Icons\Heroes\rattletrap_full.png" />
+    <Content Include="Content\Icons\Heroes\razor_full.png" />
+    <Content Include="Content\Icons\Heroes\riki_full.png" />
+    <Content Include="Content\Icons\Heroes\rubick_full.png" />
+    <Content Include="Content\Icons\Heroes\sand_king_full.png" />
+    <Content Include="Content\Icons\Heroes\shadow_demon_full.png" />
+    <Content Include="Content\Icons\Heroes\shadow_shaman_full.png" />
+    <Content Include="Content\Icons\Heroes\shredder_full.png" />
+    <Content Include="Content\Icons\Heroes\silencer_full.png" />
+    <Content Include="Content\Icons\Heroes\skeleton_king_full.png" />
+    <Content Include="Content\Icons\Heroes\skywrath_mage_full.png" />
+    <Content Include="Content\Icons\Heroes\slardar_full.png" />
+    <Content Include="Content\Icons\Heroes\slark_full.png" />
+    <Content Include="Content\Icons\Heroes\sniper_full.png" />
+    <Content Include="Content\Icons\Heroes\spectre_full.png" />
+    <Content Include="Content\Icons\Heroes\spirit_breaker_full.png" />
+    <Content Include="Content\Icons\Heroes\storm_spirit_full.png" />
+    <Content Include="Content\Icons\Heroes\sven_full.png" />
+    <Content Include="Content\Icons\Heroes\techies_full.png" />
+    <Content Include="Content\Icons\Heroes\templar_assassin_full.png" />
+    <Content Include="Content\Icons\Heroes\terrorblade_full.png" />
+    <Content Include="Content\Icons\Heroes\tidehunter_full.png" />
+    <Content Include="Content\Icons\Heroes\tinker_full.png" />
+    <Content Include="Content\Icons\Heroes\tiny_full.png" />
+    <Content Include="Content\Icons\Heroes\treant_full.png" />
+    <Content Include="Content\Icons\Heroes\troll_warlord_full.png" />
+    <Content Include="Content\Icons\Heroes\tusk_full.png" />
+    <Content Include="Content\Icons\Heroes\undying_full.png" />
+    <Content Include="Content\Icons\Heroes\ursa_full.png" />
+    <Content Include="Content\Icons\Heroes\vengefulspirit_full.png" />
+    <Content Include="Content\Icons\Heroes\venomancer_full.png" />
+    <Content Include="Content\Icons\Heroes\viper_full.png" />
+    <Content Include="Content\Icons\Heroes\visage_full.png" />
+    <Content Include="Content\Icons\Heroes\warlock_full.png" />
+    <Content Include="Content\Icons\Heroes\weaver_full.png" />
+    <Content Include="Content\Icons\Heroes\windrunner_full.png" />
+    <Content Include="Content\Icons\Heroes\winter_wyvern_full.png" />
+    <Content Include="Content\Icons\Heroes\wisp_full.png" />
+    <Content Include="Content\Icons\Heroes\witch_doctor_full.png" />
+    <Content Include="Content\Icons\Heroes\zuus_full.png" />
+    <Content Include="Content\Icons\Items\abyssal_blade.png" />
+    <Content Include="Content\Icons\Items\aegis.png" />
+    <Content Include="Content\Icons\Items\ancient_janggo.png" />
+    <Content Include="Content\Icons\Items\arcane_boots.png" />
+    <Content Include="Content\Icons\Items\armlet_active.png" />
+    <Content Include="Content\Icons\Items\assault.png" />
+    <Content Include="Content\Icons\Items\basher.png" />
+    <Content Include="Content\Icons\Items\belt_of_strength.png" />
+    <Content Include="Content\Icons\Items\bfury.png" />
+    <Content Include="Content\Icons\Items\black_king_bar.png" />
+    <Content Include="Content\Icons\Items\blades_of_attack.png" />
+    <Content Include="Content\Icons\Items\blade_mail.png" />
+    <Content Include="Content\Icons\Items\blade_mail_axe_pw.png" />
+    <Content Include="Content\Icons\Items\blade_of_alacrity.png" />
+    <Content Include="Content\Icons\Items\blink.png" />
+    <Content Include="Content\Icons\Items\bloodstone.png" />
+    <Content Include="Content\Icons\Items\boots.png" />
+    <Content Include="Content\Icons\Items\boots_of_elves.png" />
+    <Content Include="Content\Icons\Items\bottle.png" />
+    <Content Include="Content\Icons\Items\bottle_medium.png" />
+    <Content Include="Content\Icons\Items\bottle_small.png" />
+    <Content Include="Content\Icons\Items\bracer.png" />
+    <Content Include="Content\Icons\Items\branches.png" />
+    <Content Include="Content\Icons\Items\broadsword.png" />
+    <Content Include="Content\Icons\Items\buckler.png" />
+    <Content Include="Content\Icons\Items\butterfly.png" />
+    <Content Include="Content\Icons\Items\chainmail.png" />
+    <Content Include="Content\Icons\Items\cheese.png" />
+    <Content Include="Content\Icons\Items\circlet.png" />
+    <Content Include="Content\Icons\Items\clarity.png" />
+    <Content Include="Content\Icons\Items\claymore.png" />
+    <Content Include="Content\Icons\Items\cloak.png" />
+    <Content Include="Content\Icons\Items\courier.png" />
+    <Content Include="Content\Icons\Items\crimson_guard.png" />
+    <Content Include="Content\Icons\Items\cyclone.png" />
+    <Content Include="Content\Icons\Items\dagon.png" />
+    <Content Include="Content\Icons\Items\dagon_2.png" />
+    <Content Include="Content\Icons\Items\dagon_3.png" />
+    <Content Include="Content\Icons\Items\dagon_4.png" />
+    <Content Include="Content\Icons\Items\dagon_5.png" />
+    <Content Include="Content\Icons\Items\demon_edge.png" />
+    <Content Include="Content\Icons\Items\desolator.png" />
+    <Content Include="Content\Icons\Items\diffusal_blade_2.png" />
+    <Content Include="Content\Icons\Items\dust.png" />
+    <Content Include="Content\Icons\Items\eagle.png" />
+    <Content Include="Content\Icons\Items\enchanted_mango.png" />
+    <Content Include="Content\Icons\Items\energy_booster.png" />
+    <Content Include="Content\Icons\Items\ethereal_blade.png" />
+    <Content Include="Content\Icons\Items\flask.png" />
+    <Content Include="Content\Icons\Items\flying_courier.png" />
+    <Content Include="Content\Icons\Items\force_staff.png" />
+    <Content Include="Content\Icons\Items\gauntlets.png" />
+    <Content Include="Content\Icons\Items\gem.png" />
+    <Content Include="Content\Icons\Items\ghost.png" />
+    <Content Include="Content\Icons\Items\glimmer_cape.png" />
+    <Content Include="Content\Icons\Items\gloves.png" />
+    <Content Include="Content\Icons\Items\greater_crit.png" />
+    <Content Include="Content\Icons\Items\guardian_greaves.png" />
+    <Content Include="Content\Icons\Items\hand_of_midas.png" />
+    <Content Include="Content\Icons\Items\headdress.png" />
+    <Content Include="Content\Icons\Items\heart.png" />
+    <Content Include="Content\Icons\Items\heavens_halberd.png" />
+    <Content Include="Content\Icons\Items\helm_of_iron_will.png" />
+    <Content Include="Content\Icons\Items\helm_of_the_dominator.png" />
+    <Content Include="Content\Icons\Items\hood_of_defiance.png" />
+    <Content Include="Content\Icons\Items\hyperstone.png" />
+    <Content Include="Content\Icons\Items\invis_sword.png" />
+    <Content Include="Content\Icons\Items\javelin.png" />
+    <Content Include="Content\Icons\Items\lesser_crit.png" />
+    <Content Include="Content\Icons\Items\lifesteal.png" />
+    <Content Include="Content\Icons\Items\lotus_orb.png" />
+    <Content Include="Content\Icons\Items\maelstrom.png" />
+    <Content Include="Content\Icons\Items\magic_stick.png" />
+    <Content Include="Content\Icons\Items\magic_wand.png" />
+    <Content Include="Content\Icons\Items\manta.png" />
+    <Content Include="Content\Icons\Items\mantle.png" />
+    <Content Include="Content\Icons\Items\mask_of_madness.png" />
+    <Content Include="Content\Icons\Items\medallion_of_courage.png" />
+    <Content Include="Content\Icons\Items\mekansm.png" />
+    <Content Include="Content\Icons\Items\mithril_hammer.png" />
+    <Content Include="Content\Icons\Items\mjollnir.png" />
+    <Content Include="Content\Icons\Items\monkey_king_bar.png" />
+    <Content Include="Content\Icons\Items\moon_shard.png" />
+    <Content Include="Content\Icons\Items\mystic_staff.png" />
+    <Content Include="Content\Icons\Items\necronomicon.png" />
+    <Content Include="Content\Icons\Items\necronomicon_2.png" />
+    <Content Include="Content\Icons\Items\necronomicon_3.png" />
+    <Content Include="Content\Icons\Items\none.png" />
+    <Content Include="Content\Icons\Items\null_talisman.png" />
+    <Content Include="Content\Icons\Items\oblivion_staff.png" />
+    <Content Include="Content\Icons\Items\octarine_core.png" />
+    <Content Include="Content\Icons\Items\ogre_axe.png" />
+    <Content Include="Content\Icons\Items\orb_of_venom.png" />
+    <Content Include="Content\Icons\Items\orchid.png" />
+    <Content Include="Content\Icons\Items\pers.png" />
+    <Content Include="Content\Icons\Items\phase_boots.png" />
+    <Content Include="Content\Icons\Items\pipe.png" />
+    <Content Include="Content\Icons\Items\platemail.png" />
+    <Content Include="Content\Icons\Items\point_booster.png" />
+    <Content Include="Content\Icons\Items\poor_mans_shield.png" />
+    <Content Include="Content\Icons\Items\power_treads.png" />
+    <Content Include="Content\Icons\Items\power_treads_agi.png" />
+    <Content Include="Content\Icons\Items\power_treads_int.png" />
+    <Content Include="Content\Icons\Items\power_treads_str.png" />
+    <Content Include="Content\Icons\Items\quarterstaff.png" />
+    <Content Include="Content\Icons\Items\quelling_blade.png" />
+    <Content Include="Content\Icons\Items\radiance_inactive.png" />
+    <Content Include="Content\Icons\Items\rapier.png" />
+    <Content Include="Content\Icons\Items\reaver.png" />
+    <Content Include="Content\Icons\Items\recipe.png" />
+    <Content Include="Content\Icons\Items\refresher.png" />
+    <Content Include="Content\Icons\Items\relic.png" />
+    <Content Include="Content\Icons\Items\ring_of_aquila.png" />
+    <Content Include="Content\Icons\Items\ring_of_basilius.png" />
+    <Content Include="Content\Icons\Items\ring_of_health.png" />
+    <Content Include="Content\Icons\Items\ring_of_protection.png" />
+    <Content Include="Content\Icons\Items\ring_of_regen.png" />
+    <Content Include="Content\Icons\Items\robe.png" />
+    <Content Include="Content\Icons\Items\rod_of_atos.png" />
+    <Content Include="Content\Icons\Items\sange.png" />
+    <Content Include="Content\Icons\Items\sange_and_yasha.png" />
+    <Content Include="Content\Icons\Items\satanic.png" />
+    <Content Include="Content\Icons\Items\sheepstick.png" />
+    <Content Include="Content\Icons\Items\shivas_guard.png" />
+    <Content Include="Content\Icons\Items\silver_edge.png" />
+    <Content Include="Content\Icons\Items\skadi.png" />
+    <Content Include="Content\Icons\Items\slippers.png" />
+    <Content Include="Content\Icons\Items\smoke_of_deceit.png" />
+    <Content Include="Content\Icons\Items\sobi_mask.png" />
+    <Content Include="Content\Icons\Items\solar_crest.png" />
+    <Content Include="Content\Icons\Items\soul_booster.png" />
+    <Content Include="Content\Icons\Items\soul_ring.png" />
+    <Content Include="Content\Icons\Items\sphere.png" />
+    <Content Include="Content\Icons\Items\staff_of_wizardry.png" />
+    <Content Include="Content\Icons\Items\stout_shield.png" />
+    <Content Include="Content\Icons\Items\talisman_of_evasion.png" />
+    <Content Include="Content\Icons\Items\tango.png" />
+    <Content Include="Content\Icons\Items\tpscroll.png" />
+    <Content Include="Content\Icons\Items\tranquil_boots_active.png" />
+    <Content Include="Content\Icons\Items\travel_boots.png" />
+    <Content Include="Content\Icons\Items\travel_boots_2.png" />
+    <Content Include="Content\Icons\Items\travel_boots_tinker.png" />
+    <Content Include="Content\Icons\Items\ultimate_orb.png" />
+    <Content Include="Content\Icons\Items\ultimate_scepter.png" />
+    <Content Include="Content\Icons\Items\urn_of_shadows.png" />
+    <Content Include="Content\Icons\Items\vanguard.png" />
+    <Content Include="Content\Icons\Items\veil_of_discord.png" />
+    <Content Include="Content\Icons\Items\vitality_booster.png" />
+    <Content Include="Content\Icons\Items\vladmir.png" />
+    <Content Include="Content\Icons\Items\void_stone.png" />
+    <Content Include="Content\Icons\Items\ward_observer.png" />
+    <Content Include="Content\Icons\Items\ward_sentry.png" />
+    <Content Include="Content\Icons\Items\wraith_band.png" />
+    <Content Include="Content\Icons\Items\yasha.png" />
+    <Content Include="Content\Table.css" />
+    <Content Include="Content\Ugly\bootstrap.css" />
+    <Content Include="Content\Ugly\bootstrap.min.css" />
+    <Content Include="Content\Ugly\CustomNavigation.css" />
+    <Content Include="Content\Ugly\DotaSearchItems.css" />
+    <Content Include="Content\Ugly\Site.css" />
+    <Content Include="Content\Ugly\Table.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="gulpfile.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="package.json" />
+    <None Include="Properties\PublishProfiles\Dota2Client - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2Client - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %2810%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %288%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP %289%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %2810%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %288%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy %289%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Dota2WebAPI - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\dist\main.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\src\components\AddContentItem.jsx" />
+    <Content Include="Scripts\src\components\contentItem.jsx" />
+    <Content Include="Scripts\src\components\DotaTable.jsx" />
+    <None Include="Scripts\src\components\hellojsx.jsx" />
+    <Content Include="Scripts\src\helpers\AllHeroesSingleton.js" />
+    <Content Include="Scripts\src\helpers\Dota2WebService.js" />
+    <Content Include="Scripts\src\helpers\Globals.js" />
+    <Content Include="Scripts\src\helpers\helperFunctions.js" />
+    <Content Include="Scripts\src\helpers\ItemsSingleton.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Scripts\src\components\reactcomponet.jsx" />
+    <Content Include="Scripts\src\components\pagenavigation.jsx" />
+    <Content Include="Scripts\src\components\heroesVsItem.jsx" />
+    <Content Include="Scripts\src\components\navigationBarItem.jsx" />
+    <Content Include="Scripts\src\components\navigationcontent.jsx" />
+    <Content Include="Scripts\src\components\RatingItem.jsx" />
+    <Content Include="Scripts\src\components\WinrateItem.jsx" />
+    <Content Include="Scripts\src\components\heroesSelectList.jsx" />
+    <Content Include="Scripts\src\components\HeroesVsInformationItem.jsx" />
+    <Content Include="Scripts\src\components\HeroInformation.jsx" />
+    <Content Include="Scripts\src\components\MatchItem.jsx" />
+    <Content Include="Scripts\src\components\NumberInput.jsx" />
+    <Content Include="Scripts\src\components\RatingInformationItem.jsx" />
+    <Content Include="Scripts\src\components\ServerIsBusyItem.jsx" />
+    <Content Include="Scripts\src\components\SubmitButton.jsx" />
+    <Content Include="Scripts\src\components\Timer.jsx" />
+    <Content Include="Scripts\src\components\WinrateItemInformation.jsx" />
+    <None Include="Scripts\src\main.jsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12028</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12028/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

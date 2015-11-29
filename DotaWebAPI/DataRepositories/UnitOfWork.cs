@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataRepo;
+using DataRepositoriesInterfaces;
 
 namespace DataRepositories
 {
@@ -13,13 +9,13 @@ namespace DataRepositories
         /// <summary>
         /// The DbContext
         /// </summary>
-        private DbContext _dbContext;
+        private Dota2DbContext _dbContext;
 
         /// <summary>
         /// Initializes a new instance of the UnitOfWork class.
         /// </summary>
         /// <param name="context">The object context</param>
-        public UnitOfWork(DbContext context)
+        public UnitOfWork(Dota2DbContext context)
         {
 
             _dbContext = context;

@@ -38,8 +38,8 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -61,8 +61,11 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\HeroesRepository.cs" />
+    <Compile Include="Repositories\ItemRepository.cs" />
     <Compile Include="Repositories\MatchRepository.cs" />
     <Compile Include="Repositories\PlayerStatisticsRepository.cs" />
+    <Compile Include="Repositories\TaskParserRepository.cs" />
+    <Compile Include="Repositories\TaskRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,9 +73,9 @@
       <Project>{cbeaa51c-ca1f-40a2-82da-debbccbe619f}</Project>
       <Name>DatabaseEntities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataRepo\DataRepo.csproj">
+    <ProjectReference Include="..\DataRepo\DataRepositoriesInterfaces.csproj">
       <Project>{2664bf7c-27e9-44e7-aa0d-d2970af1abca}</Project>
-      <Name>DataRepo</Name>
+      <Name>DataRepositoriesInterfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

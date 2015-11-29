@@ -44,11 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDto.cs" />
     <Compile Include="DtoBase.cs" />
     <Compile Include="Globals.cs" />
+    <Compile Include="HeoresInfoDto.cs" />
+    <Compile Include="HeroWinrate.cs" />
+    <Compile Include="HeroWinrateDto.cs" />
+    <Compile Include="MatchDto.cs" />
+    <Compile Include="MinimizedMatchDto.cs" />
+    <Compile Include="PlayerRatingDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SteamResponseMatche.cs" />
     <Compile Include="WinrateAgaintOtherHeroDto.cs" />
+    <Compile Include="WinrateDto.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DatabaseEntities\DatabaseEntities.csproj">

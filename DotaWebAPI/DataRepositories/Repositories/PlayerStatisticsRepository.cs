@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using DatabaseEntities.Entities;
+﻿using DatabaseEntities.Entities;
 using DataRepo;
+using DataRepositoriesInterfaces;
 
 namespace DataRepositories.Repositories
 {
@@ -12,6 +11,5 @@ namespace DataRepositories.Repositories
         {
             
         }
-        public IList<Player> List { get { return DBContext.Players.ToList(); } } 
     }
 }

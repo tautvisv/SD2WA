@@ -1,0 +1,108 @@
+﻿@model DotaMVCRepresentationLayer.Models.Interfaces.IMainPageViewModel
+@{
+    ViewBag.Title = @Model.SiteTitle;
+}
+@Styles.Render("~/Content/MyUglyCss")
+
+@*<div>
+    <table class="match-table">
+        <thead>
+        <tr>
+            <th></th>
+            <th>Player</th>
+            <th></th>
+            <th><acronym rel="tooltip" data-hasqtip="0" oldtitle="Hero Level" title="">Level</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="1" oldtitle="Kills" title="">K</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="2" oldtitle="Deaths" title="">D</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="3" oldtitle="Assists" title="">A</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="4" oldtitle="KDA Ratio" title="">KDA</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="5" oldtitle="Total Gold Earned" title="">Gold</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="6" oldtitle="Last Hits" title="">LH</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="7" oldtitle="Denies" title="">DN</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="8" oldtitle="Experience earned per minute" title="">XPM</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="9" oldtitle="Gold earned per minute" title="">GPM</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="10" oldtitle="Damage dealt to enemy Heroes" title="">HD</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="11" oldtitle="Healing provided to friendly Heroes" title="">HH</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="12" oldtitle="Damage dealt to enemy Towers" title="">TD</acronym></th>
+            <th><acronym rel="tooltip" data-hasqtip="13" oldtitle="Items in inventory at the end of the Match" title="">Items</acronym></th>
+        </tr>
+        </thead>
+    </table>
+</div>*@
+
+@*<div id="tabs-custom">
+
+        <ul class="custom-nav clearfix">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li class="active"><a href="#">clients</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <ul class="dota-info-list">
+            <li class="add-item">
+                <div id="cross"><b /></div>
+            </li>
+            <li>
+                <div class="element-container">
+                    <input class="content-list-input"  placeholder="player id" value="" />
+                    <select class="content-list-select ">
+                        <option>hero1</option>
+                        <option>hero2</option>
+                    </select>
+                    <select class="content-list-select">
+                        <option>hero5</option>
+                        <option>hero7</option>
+                        <option>hero7</option>
+                    </select>
+                    <button type="button" class="content-list-button">submit</button>
+                    <span>player xxyyxxx winrate with hero:</span>
+                    <span class="big">pudge</span>
+                    <span>agains:</span>
+                    <span class="big">dazzle</span>
+                    <span>is:</span>
+                    <span class="big">59.8%</span>
+                    <span class="bigger">please wait for 30 sec</span>
+                    <div class="boxclose"></div>
+                </div>
+            </li>
+            <li>
+                <div class="element-container">
+                    <input class="content-list-input" placeholder="player id" value="" />
+                    <input class="content-list-input" placeholder="match count" value="" />
+                    <button type="button" class="content-list-button">submit</button>
+                    <span>player xxyyxxx rating is:</span>
+                    <span class="big">4800 mmr</span>
+                    <span class="bigger">please wait for 30 sec</span>
+                    <div class="boxclose"></div>
+                </div>
+            </li>
+            <li>
+                <div class="element-container">
+                    <input class="content-list-input" placeholder="player id" value="" />
+                    <select class="content-list-select ">
+                        <option>hero1</option>
+                        <option>hero2</option>
+                    </select>
+                    <button type="button" class="content-list-button">submit</button>
+                    <span>player xxyyxxx  more more info blablabla:</span>
+                    <span class="big">pudge</span>
+                    <span>agains:</span>
+                    <span class="big">dazzle</span>
+                    <span>is:</span>
+                    <span class="big">59.8%</span>
+                    <span class="bigger">please wait for 30 sec</span>
+                    <div class="boxclose"></div>
+                </div>
+            </li>
+            <li class="big"></li>
+            <li></li>
+            <li class="big"></li>
+        </ul>
+    </div>*@
+
+<div id="app"></div>
+
+<script src="~/Scripts/dist/main.js"></script>

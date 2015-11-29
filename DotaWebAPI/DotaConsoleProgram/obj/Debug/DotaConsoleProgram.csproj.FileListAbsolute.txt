@@ -1,0 +1,17 @@
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\DotaConsoleProgram.exe.config
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\DotaConsoleProgram.exe
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\DotaConsoleProgram.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\CustomCalculationServiceConnectionLib.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\DatabaseEntities.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\Newtonsoft.Json.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\ServiceStack.Client.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\ServiceStack.Interfaces.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\ServiceStack.Text.dll
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\CustomCalculationServiceConnectionLib.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\DatabaseEntities.pdb
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\Newtonsoft.Json.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\ServiceStack.Client.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\bin\Debug\ServiceStack.Text.xml
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\obj\Debug\DotaConsoleProgram.csprojResolveAssemblyReference.cache
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\obj\Debug\DotaConsoleProgram.exe
+E:\Darbai\c#\Saitynai\DotaWebAPI\DotaConsoleProgram\obj\Debug\DotaConsoleProgram.pdb
