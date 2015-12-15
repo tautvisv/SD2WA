@@ -5,6 +5,7 @@ function responseNotFound(xhr, ajaxOptions, thrownError, callback){
         alert(thrownError);
     }
 };
+
 var Dota2WebService = (function(){
 	return {
 		getAllHeroes: function(callback){

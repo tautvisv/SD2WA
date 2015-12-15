@@ -10,5 +10,8 @@ var tabs = [	{ title: "Match analysis", active: false, rows:[], type:1 },
 ReactDome.render(<PageNavigation tabs={tabs}/>, document.getElementById("app"));
 
 
+
+
+
 //Kodėl neveikia prototype
 //Kaip parefreshint kai atsinaujino
