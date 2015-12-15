@@ -28,14 +28,15 @@ namespace Dota2CalculationService.Controllers
             var result = _service.CalculateStatistics(match);
             return CreateResponse(result);
         }
-        [Route("key/{key}/Winrate/")]
-        public IHttpActionResult PostCalculateWinrate(string key, [FromBody]ICollection<Match> matches)
+        [Route("key/{key}/Winrate/PlayerID/{id}/")]
+        [Route("key/{key}/Winrate/PlayerID/{id}/EnemyHeroId/{enemyHeroId}")]
+        public IHttpActionResult PostCalculateWinrate(string key, int id, int? enemyHeroId, [FromBody]ICollection<Match> matches)
         {
             if (!_keyValidation.IsValid(key))
             {
                 return CreateResponse(null);
             }
-            var result = _service.CalculateWinrate(matches);
+            var result = _service.CalculateWinrate(matches, id, enemyHeroId);
             return CreateResponse(result);
         }
 

@@ -16,29 +16,32 @@ var WinrateItemInformation = React.createClass({
         }
         var that = this;
         var heroItem = null;
-        if(that.props.value.HeroId) {
+        var winrateData = that.props.value.Winrate;
+        
+        if (winrateData) {
+            if(winrateData.HeroId) {
             heroItem = (
                 <div className="display-inline">
                 <span >&nbsp; with hero: </span>
-                <HeroInformation value={that.props.value.EnemyHeroId}/>
+                <HeroInformation value={winrateData.HeroId}/>
                 </div>
                 );
         }
         var enemyHeroItem = null;
-        if(that.props.value.EnemyHeroId) {
+        if(winrateData.EnemyHeroId) {
             enemyHeroItem = (
                 <div className="display-inline">
                 <span>&nbsp; against: </span>
-                <HeroInformation value={that.props.value.EnemyHeroId}/>
+                <HeroInformation value={winrateData.EnemyHeroId}/>
                 </div>);
         }
-        if (this.props.value.Winrate) {
+
             return  (
-                <div className="dota-information"><span>PLayer {this.props.value.PlayerId} winrate </span>
+                <div className="dota-information"><span>PLayer {winrateData.PlayerId} winrate </span>
 	            {heroItem}
                 {enemyHeroItem}
                 <span> is: </span>
-                <span className="big">{this.props.value.Winrate}% </span>
+                <span className="big">{winrateData.Winrate}% </span>
                 </div>
                 );
         }

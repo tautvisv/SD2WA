@@ -28,7 +28,7 @@ namespace DataServices.Services
             return _connectioToApi.Request<Match>(request);
         }
 
-        public WinrateItem GetWinrate(IEnumerable<Match> matches)
+        public WinrateItem GetWinrate(IEnumerable<Match> matches, int playerId, int? enemyHeroId)
         {
             var request = new CustomCalculationServiceRequest
             {
@@ -38,10 +38,13 @@ namespace DataServices.Services
                 MethodName = "Winrate",
                 Body = matches,
             };
+            request.AddParamater("PlayerID", playerId.ToString());
+            if (enemyHeroId!=null)
+                request.AddParamater("enemyHeroId", enemyHeroId.ToString());
             return _connectioToApi.Request<WinrateItem>(request);
         }
 
-        public PlayerRating GetPlayerRating(IEnumerable<Match> matches)
+        public PlayerRating GetPlayerRating(IEnumerable<Match> matches, int playerId)
         {
             var request = new CustomCalculationServiceRequest
             {
@@ -51,6 +54,7 @@ namespace DataServices.Services
                 MethodName = "Rating",
                 Body = matches,
             };
+            request.AddParamater("PlayerID", playerId.ToString());
             return _connectioToApi.Request<PlayerRating>(request);
         }
 

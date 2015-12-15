@@ -25,7 +25,7 @@ var RatingItem = React.createClass({
     resetState: function(needToRefresh){
         console.log("resetting state state");
         var that = this;
-        var needToRefreshP = typeof needToRefresh != "undefined"? true : needToRefresh;
+        var needToRefreshP = typeof needToRefresh !== "undefined" && needToRefresh !== false? true : needToRefresh;
         Dota2WebService.getRating(this.state.playerId, this.state.matchCount, needToRefreshP, function(responseData){that.props.initState.response = responseData; that.setState(that.props.initState);});
         
     },

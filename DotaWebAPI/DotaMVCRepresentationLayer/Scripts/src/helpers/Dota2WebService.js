@@ -28,9 +28,9 @@ var Dota2WebService = (function(){
                     error:responseNotFound,
                 });
 		},
-		getWinrate: function(playerID, heroID, EnemyHeroId, refresh, callback){
+		getWinrate: function(playerID, heroID, EnemyHeroId, count, refresh, callback){
 			$.ajax({
-                url: Globals.DotaUrl+"ChoosenWinrateAgainstHero/Player/"+playerID+"/Hero/"+heroID+"/EnemyHero/"+EnemyHeroId+ "/refresh/" + refresh,
+                url: Globals.DotaUrl+"ChoosenWinrateAgainstHero/Player/"+playerID+"/Hero/"+heroID+"/EnemyHero/"+EnemyHeroId+(count?"/Count/"+count:"")+ "/refresh/" + refresh,
                     success: function(response){
                     	console.log("from Service", JSON.stringify(response));
                     	if(typeof callback === "function") callback(response);

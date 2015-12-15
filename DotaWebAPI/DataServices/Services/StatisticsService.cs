@@ -44,7 +44,7 @@ namespace DataServices.Services
             }
             var matches = MatchesRepository.FilteredList(playerId, enemyHeroID);
             if (matches.Count == 0) return null;
-            data.Winrate = CalculationService.GetWinrate(matches);
+            data.Winrate = CalculationService.GetWinrate(matches, playerId, enemyHeroID);
             data.WaitingTime = 0;
             _unitOfWork.Commit();
             return data;
@@ -59,7 +59,7 @@ namespace DataServices.Services
                 return data;
             }
             var matches = MatchesRepository.FilteredList(playerId, enemyHeroID, matchCount);
-            data.Winrate = CalculationService.GetWinrate(matches);
+            data.Winrate = CalculationService.GetWinrate(matches, playerId, enemyHeroID);
             data.WaitingTime = 0;
             return data;
         }
@@ -76,7 +76,7 @@ namespace DataServices.Services
             }
             var matches = MatchesRepository.FilteredListByHero(playerId, choosenHeroID, enemyHeroID);
             if (matches.Count == 0) return null;
-            data.Winrate = CalculationService.GetWinrate(matches);
+            data.Winrate = CalculationService.GetWinrate(matches,playerId,enemyHeroID);
             data.WaitingTime = 0;
             return data;
         }
@@ -93,7 +93,7 @@ namespace DataServices.Services
             }
             var matches = MatchesRepository.FilteredListByHero(playerId, choosenHeroID, enemyHeroID, matchesCount);
             if (matches.Count == 0) return null;
-            data.Winrate = CalculationService.GetWinrate(matches);
+            data.Winrate = CalculationService.GetWinrate(matches, playerId, enemyHeroID);
             data.WaitingTime = 0;
             return data;
         }
@@ -110,7 +110,7 @@ namespace DataServices.Services
             }
             var matches = MatchesRepository.FilteredList(playerID);
             if (matches.Count == 0) return null;
-            data.Rating = CalculationService.GetPlayerRating(matches);
+            data.Rating = CalculationService.GetPlayerRating(matches, playerID);
             return data;
         }
 
@@ -124,9 +124,9 @@ namespace DataServices.Services
                 _unitOfWork.Commit();
                 return data;
             }
-            var matches = MatchesRepository.FilteredList(playerID, matchCount);
+            var matches = MatchesRepository.FilteredListCount(playerID, matchCount);
             if (matches.Count == 0) return null;
-            data.Rating = CalculationService.GetPlayerRating(matches);
+            data.Rating = CalculationService.GetPlayerRating(matches, playerID);
             return data;
         }
 

@@ -8,6 +8,7 @@ namespace DataRepositoriesInterfaces
         Match GetByWebApiId(int id);
         void AddWithChilds(Match match);
 
+        ICollection<Match> FilteredListCount(int playerID, int matchCount);
         ICollection<Match> FilteredList(int playerID, int enemyHeroID);
         ICollection<Match> FilteredList(int playerId, int enemyHeroID, int matchCount);
         ICollection<Match> FilteredListByHero(int playerId, int choosenHeroID, int enemyHeroID);

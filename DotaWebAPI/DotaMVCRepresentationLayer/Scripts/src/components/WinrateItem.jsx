@@ -35,7 +35,7 @@ var WinrateItem = React.createClass({
     resetState: function(){
     	console.log("resetting state winrate",this.state);
         var that = this;
-        Dota2WebService.getWinrate(this.state.playerId, this.state.heroId, this.state.enemyHeroId, true, 
+        Dota2WebService.getWinrate(this.state.playerId, this.state.heroId, this.state.enemyHeroId, this.state.matchCount, true, 
             function(responseData){
                 that.props.initState.response = responseData;
                 that.setState(that.props.initState);

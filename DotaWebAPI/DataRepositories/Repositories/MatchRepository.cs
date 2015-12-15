@@ -26,6 +26,14 @@ namespace DataRepositories.Repositories
             DBSet.AddOrUpdate(match);
         }
 
+        public ICollection<Match> FilteredListCount(int playerID, int matchCount)
+        {
+            var query = from matches in DBContext.Matches
+                        where matches.Players.Any(player => player.AccountID == playerID)
+                        select matches;
+            return query.Include(x => x.Players).Include(x => x.Players.Select(p => p.AbilityUpgrades)).Take(matchCount).ToList();
+        }
+
         public ICollection<Match> FilteredList(int playerID, int enemyHeroID)
         {
             var query = from matches in DBContext.Matches
@@ -47,25 +55,25 @@ namespace DataRepositories.Repositories
         public ICollection<Match> FilteredListByHero(int playerID, int choosenHeroID, int enemyHeroID)
         {
             var query = from matches in DBContext.Matches
-                        where matches.Players.Any(player => player.AccountID == playerID)
+                        where matches.Players.Any(player => player.AccountID == playerID && player.HeroID == choosenHeroID)
                         select matches;
-            query = query.Where(x => x.Players.Any(player => (player.HeroID == choosenHeroID && player.AccountID == playerID) || (player.AccountID != playerID && player.HeroID == enemyHeroID)));
-            return query.Include(x => x.Players).Include(x => x.Players.Select(p => p.AbilityUpgrades)).ToList();
+            query = query.Where(x => x.Players.Any(player =>(player.AccountID != playerID && player.HeroID == enemyHeroID)));
+            return query.Include(x => x.Players).ToList();
         }
         public ICollection<Match> FilteredListByHero(int playerID, int choosenHeroID, int enemyHeroID, int matchesCount)
         {
             var query = from matches in DBContext.Matches
-                        where matches.Players.Any(player => player.AccountID == playerID)
+                        where matches.Players.Any(player => player.AccountID == playerID && player.HeroID == choosenHeroID)
                         select matches;
-            query = query.Where(x => x.Players.Any(player => (player.HeroID == choosenHeroID && player.AccountID == playerID) || (player.AccountID != playerID && player.HeroID == enemyHeroID)));
-            return query.Include(x => x.Players).Include(x => x.Players.Select(p => p.AbilityUpgrades)).Take(matchesCount).ToList();
+            query = query.Where(x => x.Players.Any(player => (player.AccountID != playerID && player.HeroID == enemyHeroID)));
+            return query.Include(x => x.Players).Take(matchesCount).ToList();
         }
         public ICollection<Match> FilteredList(int playerID)
         {
             var query = from matches in DBContext.Matches
                         where matches.Players.Any(player => player.AccountID == playerID)
                         select matches;
-            return query.Include(x => x.Players).Include(x => x.Players.Select(p => p.AbilityUpgrades)).ToList();
+            return query.Include(x => x.Players).Take(200).ToList();
         }
 
     }

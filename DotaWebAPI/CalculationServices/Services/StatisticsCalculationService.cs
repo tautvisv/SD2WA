@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 using CalculationServicesInterfaces;
 using Data;
 using DatabaseEntities.Entities;
@@ -17,14 +20,49 @@ namespace CalculationServices.Services
             return match;
         }
 
-        public WinrateItem CalculateWinrate(ICollection<Match> matches)
+        public WinrateItem CalculateWinrate(ICollection<Match> matches, int playerId, int? enemyPlayerId)
         {
-            return new WinrateItem { Winrate = 59.8m, MatchCount = matches.Count};
+            var wonMatches = 0;
+            var total = matches.Count;
+            var player = matches.FirstOrDefault().Players.Where(x => x.AccountID == playerId).First();
+            foreach (var match in matches)
+            {
+                var thisPlayer = match.Players.First(x => x.AccountID == playerId);
+                if (enemyPlayerId != null)
+                {
+                    var enemy = match.Players.First(x => x.HeroID == enemyPlayerId);
+                    if (Math.Abs(enemy.Slot - thisPlayer.Slot) < 20)
+                    {
+                        total--;
+                        continue;
+                    }
+                }
+                if (thisPlayer.Slot < 120 == match.RadiantWin) wonMatches++;
+            }
+            return new WinrateItem { Winrate = (decimal)(wonMatches * 100) / (decimal)total, MatchCount = matches.Count, HeroId = player.HeroID, EnemyHeroId = enemyPlayerId, PlayerId = playerId };
         }
 
         public PlayerRating CalculateRating(ICollection<Match> matches, int playerId)
         {
-            return new PlayerRating { Rating = 4595, MatchCount = matches.Count, PlayerId = playerId };
+            var rating = 0m;
+            foreach (var match in matches)
+            {
+                var thisPlayer = match.Players.First(player => player.AccountID.Equals(playerId));
+                var deaths = thisPlayer.Deaths > 0 ? thisPlayer.Deaths : 1;
+                var bonus = (decimal)(thisPlayer.Kills + thisPlayer.Assists) / (decimal)(deaths*2.5m);
+                if (bonus > 4)
+                {
+                    bonus = 5;
+                }
+                else if (bonus < 0.25m)
+                {
+                    bonus = 0.2m;
+                }
+                var points = thisPlayer.Slot < 120 == match.RadiantWin ? 25*bonus : -25/bonus;
+                rating += points;
+                //match.RadiantWin
+            }
+            return new PlayerRating { Rating = decimal.ToInt32(rating), MatchCount = matches.Count, PlayerId = playerId };
         }
 
         public Information CalculateBestAgainst(ICollection<Match> matches)
